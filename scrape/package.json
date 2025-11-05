@@ -1,0 +1,17 @@
+{
+  "name": "sofweek-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for sofweek.org/agenda using Playwright",
+  "main": "scraper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scraper.js",
+    "install-browsers": "playwright install chromium"
+  },
+  "keywords": ["scraper", "playwright"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

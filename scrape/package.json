@@ -1,14 +1,16 @@
 {
-  "name": "sofweek-scraper",
+  "name": "sof-week-scraper",
   "version": "1.0.0",
-  "description": "Web scraper for sofweek.org/agenda using Playwright",
+  "description": "Scraper for SOF Week conference speaker information",
   "main": "scraper.js",
-  "type": "module",
   "scripts": {
-    "start": "node scraper.js",
-    "install-browsers": "playwright install chromium"
+    "scrape": "node scraper.js"
   },
-  "keywords": ["scraper", "playwright"],
+  "keywords": [
+    "scraper",
+    "playwright",
+    "conference"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
